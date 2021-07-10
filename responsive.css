@@ -1,0 +1,326 @@
+@media screen and (min-width:1060px) and (max-width:1200px) {
+  .about-info .list-item2 {
+    margin-left: 10%;
+  }
+}
+@media screen and (min-width:1127px) and (max-width:1280px) {
+  .about-us .about-img {
+    width: 500px!important;
+      }
+  .about-us .about-img img {
+width: 500px!important;
+height: auto!important;
+  }
+  .about-us .about-info {
+    margin-top: 0px!important;
+  }
+  .about-us .about-info span {
+    font-size: 18px!important;
+  }
+  .about-us .about-info h1 {
+    font-size: 28px!important;
+  }
+  .about-us .about-info p {
+    font-size: 16px!important;
+  }
+}
+
+@media screen and (max-width:1126px) {
+  .container {
+    max-width: 1060px!important;
+  }
+  .element-container {
+    width: 230px!important;
+    margin-top: -90px!important;
+    padding: 30px 30px 30px!important;
+  }
+  .main-article .article-info {
+    margin-top: 20%;
+  }
+  .main-article .images img {
+width: 322px!important;
+  }
+  .images img:nth-child(2) {
+    width: 322px!important;
+    margin: 0px;
+  }
+  .about-img {
+    width: 450px!important;
+    height: 440px!important;
+  }
+  .about-img img {
+    width: 450px!important;
+    height: 440px!important;
+  }
+  .info-container {
+    margin-top: 30%;
+  }
+  .about-info {
+    margin-top: -35px;
+  }
+  .about-info h1 {
+    font-size: 28px!important;
+  }
+  .about-info p {
+    font-size: 16px!important;
+  }
+  .list li {
+    margin-bottom: 10px!important;
+  }
+.card-img img {
+  width: 290px!important;
+}
+
+.row-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+@media screen and (max-width:991px) {
+  .container {
+    max-width: 720px!important;
+  }
+  .search-box, .shop-cart, .gt-toggle-btn {
+    display: none;
+  }
+  .article-info {
+    margin-top: 5%;
+  }
+  .article-info span {
+    font-size: 20px!important;
+  }
+  .article-info h1 {
+    font-size: 36px!important;
+  }
+  .article-info p {
+    font-size: 15px!important;
+    margin-top: 2%!important;
+  }
+  .buttons .btn-primary {
+    width: 160px!important;
+  }
+  .col-md-12 {
+    text-align: center;
+  }
+  .col-md-12 .buttons {
+    justify-content: center;
+  }
+  .images img{
+    width: 322px!important;
+  }
+  .images img:nth-child(2) {
+    width: 322px!important;
+    margin-left: 180px;
+    margin-top: 0;
+  }
+  .element-container {
+    padding: 30px 30px 3px 40px!important;
+    position: none!important;
+    width: 100%!important;
+  }
+  .yoga-information .col-md-6 {
+        margin-top: 15%!important;
+  }
+  .about-us {
+    height: 990px!important;
+  }
+  .about-us .col-md-12 {
+    text-align: center!important;
+  }
+  .about-us .about-img {
+    width: auto!important;
+    
+  }
+  .about-img img {
+    height: auto!important;
+    width: 100!important;
+  }
+  .info-container {
+    margin-top: 3%!important;
+  }
+  .about-info {
+    margin-top: 2px!important;
+  }
+  .about-info span {
+    font-size: 18px!important;
+  }
+  .about-info h1 {
+    font-size: 22px!important;
+  }
+  .about-info p {
+    font-size: 14px!important;
+  }
+  .list-container {
+    justify-content: center!important;
+  }
+  .about-button {
+    margin: 4px auto;
+  }
+  .hidden-card {
+    display: none;
+  }
+  .card .card-img img {
+    width: 453px!important;
+  }
+  .yoga-card .container {
+    max-width: 1060px!important;
+  }
+  .stat-responsive .container {
+    max-width: 1024px!important;
+  }
+  .portfolio .custom-img {
+    display: block;
+  }
+  .portfolio .portfolio-img img {
+    width: 50vw;
+  }
+  .custom-respons {
+    display: none;
+  }
+  
+}
+@media screen and (min-width:992px) and (max-width:1125px) {
+  .main-article .images img:nth-child(2) {
+    margin: 0!important;
+    width: 302px!important;
+  }
+}
+@media screen and (min-width:768px) and (max-width:992px){
+  .about-us .about-img {
+    margin-top: 30%!important;
+  }
+  .stat-table .table-ul ul li {
+    margin-right: 0px;
+  }
+}
+
+}
+@media screen and (max-width:767px) {
+ .container {
+    max-width: 540px;
+  }
+  .about-us {
+    height: 1090px!important;
+  }
+  .about-img {
+    margin-top: 50%!important;
+  }
+  .hidden-2 {
+    display: none;
+  }
+  .card .card-img img {
+    width: 700px!important;
+  }
+  .yoga-card {
+    height: auto!important;
+  }
+  .stat-responsive .container {
+    max-width: 767px!important;
+  }
+  .stat-responsive .statistics {
+    margin-top: 0px;
+  }
+  .counter-info span {
+    font-size: 28px!important;
+  }
+  .gt-top-header {
+    display: none;
+  }
+  .stat-table .table-ul ul a {
+    padding: 0px 10px!important;
+  }
+  .stat-table .table-ul ul li {
+    margin-right: 0px;
+  }
+  .portfolio-img img {
+    width: 100vw!important;
+  }
+}
+@media screen and (max-width:690px) {
+  .counter-info span {
+    font-size: 20px!important;
+  }
+  .counter-info p {
+    font-size: 12px!important;
+  }
+  .main-article .images img {
+    width: 302px!important;
+  }
+}
+  .main-article .images img:nth-child(2) {
+    width: 302px;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width:659px) {
+  .table-ul ul a {
+    padding: 0px 10px;
+  }
+}
+@media screen and (max-width:608px) {
+  .about-us {
+    margin-top: 20%!important;
+  }
+  .statistics {
+    height: auto!important;
+    background-size: auto!important;
+  }
+  .statistics .counter-info span {
+    font-size: 45px!important;
+  }
+  .statistics .counter-info p {
+    font-size: 16px!important;
+  }
+  
+  }
+  @media screen and (max-width:480px) {
+    .about-us {
+      height: auto!important;
+    }
+    .yoga-information {
+      height: auto!important;
+    }
+    .yoga-information .element-container {
+      margin-top: -40px!important;
+    }
+    .about-us .about-img {
+      margin-top: 0%!important;
+    }
+    .yoga-card .card .card-img img {
+      width: 435px!important;
+    }
+    .main-article {
+      height: 700px!important;
+    }
+    .main-article .images {
+      margin-top: 20%!important;
+    }
+    .main-article .images img {
+      width: 250px!important;
+    }
+    .main-article .images img:nth-child(2) {
+      width: 250px!important;
+    }
+  }
+  @media screen and (max-width:421px) {
+    .about-us  .about-img img {
+      width: 300px!important;
+      }
+      .about-us .info-container {
+        margin-top: -40%!important;
+      }
+    .main-article .article-info h1 {
+      font-size: 26px!important;
+    }
+    .yoga-card .card .card-img img {
+      
+      width: 100%!important;
+    }
+    main .main-article {
+      height: 700px!important;
+    }
+    .main-article .buttons span {
+      font-size:16px!important;
+    }
+  }

@@ -1,0 +1,690 @@
+html, body {
+  margin: 0px!important;
+  padding: 0px!important;
+  width: 100%!important;
+  height: 100%!important;
+  
+  }
+
+.gt-top-header {
+  background-color: black;
+  font-size: 14px;
+  height: 51px;
+}
+.row {
+ 
+  align-items: center;
+}
+.row a {
+  text-decoration: none;
+  color: #fff;
+}
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.gt-header-social ul {
+  display: flex;
+  list-style: none;
+}
+.gt-header-social ul li {
+  border-right: 1px solid rgba(255, 255, 255, 0.274);
+  border-left: 1px solid rgba(255, 255, 255, 0.274);
+}
+.gt-header-social ul li a {
+  padding: 10px 20px;
+}
+.gt-header-contact ul {
+  display: flex;
+  list-style: none;
+  float: right;
+}
+.gt-header-contact ul li {
+  padding: 10px 20px;
+  border-right: 1px solid rgba(255, 255, 255, 0.274);
+  border-left: 1px solid rgba(255, 255, 255, 0.274);
+}
+.gt-header-contact ul li i {
+  margin-right: 10px;
+}
+.gt-header-contact ul li a span {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+.gt-bottom-header .row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.navbar-brand img {
+  height: 45px;
+}
+.dropdown-menu {
+  background-color: gray;
+  color: gray;
+}
+.menu-contain {
+  display: inline-block;
+  width: 100%;
+}
+.navbar-nav {
+  float: right;
+}
+.gt-toggle-btn {
+  margin: 0 0 0 30px;
+  padding: 0;
+}
+.gt-toggle-btn a {
+  position: relative;
+  display: flex;
+  padding: 0;
+  font-size: 38px;
+  background: #f46150;
+  color: #fff;
+  line-height: 52px;
+  width: 52px;
+  height: 52px;
+  text-align: center;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.search-box {
+  margin: 0 0 0 30px;
+}
+.shop-cart {
+  margin-left: 15px;
+}
+.fa-search, .fa-shopping-cart {
+  color: black;
+}
+.dropdown-toggle::after {
+  opacity: 0.5;
+  color: #212121!important;
+  
+}
+.nav-link {
+  color: #212121!important;
+  font-size: 16px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+}
+.nav-item .active {
+  color: #f46150!important;
+}
+.main-article {
+  height: 800px!important;
+  width: 100%!important;
+  background: rgba(245, 238, 234, 0.5);
+  
+}  
+.article-info span {
+  color: #F58A7D;
+  font-size: 24px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+}
+.article-info h1 {
+  font-size: 56px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  margin: 0;
+}
+.article-info p {
+  font-size: 16px;
+  color: #747170;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+}
+.images {
+  margin-top: 10%;
+  position: relative;
+}
+.images img {
+  width: 580px;
+  
+}
+.main-article .images img:nth-child(2) {
+  position: absolute;
+  z-index: 40;
+  margin-top: -7%;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 602px;
+}
+.btn-primary {
+  width: 180px;
+  background-color: #f46150!important;
+  color: #fff;
+  border-color: #f46150!important;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+}
+.buttons {
+  display: flex;
+}
+.buttons .video {
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  border-radius: 50%;
+  position: relative;
+  margin-left: 6%;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.video .fa-play {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-top: 30%;
+  z-index: 99;
+  text-align: center;
+  color: #F58A7D;
+  font-size: 20px;
+}
+.buttons span {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+  color: #666464;
+  font-size: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+}
+.element-container {
+  margin: 0px 0px 0px 0px;
+  padding: 30px 30px 30px 30px;
+  background-color: #fff;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 0px 0px 30px 0px rgb(33 33 33 / 10%);
+}
+.yoga-information {
+  height: 200px;
+}
+.yoga-information .col-sm-4 {
+  width: 25%;
+}
+.element-container {
+  position: relative;
+  width: 300px;
+  margin-top: -70px;
+  
+}
+.element-wrapper {
+  display: flex;
+  
+}
+.element-icon {
+  margin-right: 20px;
+}
+.element-text h4 {
+  color: #212121;
+  font-family: "Josefin Sans", Sans-serif;
+  font-weight: 600;
+}
+.element-text p {
+  color: #666464;
+  font-family: "Open Sans", Sans-serif;
+  font-weight: 400;
+}
+.about-us {
+  height: 607px;
+}
+.about-info {
+  margin-top: -40px;
+}
+.about-info span {
+  color: #f46150;
+  font-family: "Open Sans", Sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+.about-info h1 {
+  font-size: 48px;
+  font-family: "Open Sans", Sans-serif;
+  font-weight: 600;
+  color: #212121;
+}
+.about-info p {
+  margin-bottom: 30px;
+  line-height: 2;
+  color: #666464;
+  font-weight: normal;
+  font-family: "Open Sans", Sans-serif;
+  font-size: 18px;
+}
+.about-img img {
+  width: 620px;
+  height: 580px;
+  object-fit: cover;
+}
+.list-container {
+  display: flex;
+  
+}
+.list {
+  list-style: none;
+  padding: 0px;
+}
+.list li {
+  margin-bottom: 20px;
+}
+.list span {
+  color: #666464;
+  padding-left: 5px;
+  font-family: "Josefin Sans", Sans-serif;
+  font-weight: 400;
+}
+.list-item2 {
+  margin-left: 15%;
+}
+.fa-check {
+  font-size: 17px;
+  color: #f46150;
+}
+.about-button {
+  width: 160px!important;
+  font-family: "Open Sans", Sans-serif;
+  font-weight: 400;
+  font-style: bold;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.yoga-card {
+  height: 1000px;
+  background-color: #FBF5F1;
+  margin-top: 100px;
+}
+.section-title {
+  text-align: center;
+  padding:80px 0px 60px;
+}
+.section-title span {
+  line-height: 22px;
+  color: #f46150;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  padding: 0;
+  margin: 0 0 8px;
+  font-weight: 600;
+  font-family: "Open Sans", Sans-serif;
+  font-size: 14px;
+}
+.section-title h5 {
+  font-size: 48px;
+  line-height: 56px;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: "Open Sans", Sans-serif;
+}
+.card {
+  border: none!important;
+  background-color: transparent!important;
+}
+.card-img img {
+ width: 403px;
+ 
+}
+.card-info {
+  padding: 30px 20px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0px 0px 30px 0px rgb(33 33 33 / 10%);
+  background: #ffffff;
+  position: relative;
+  margin: -30px 15px 30px;
+}
+.text-contain a {
+  text-decoration: none;
+  color: #f46150;
+  font-size: 16px;
+  font-family: "Josefin Sans", Sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.text-contain h5 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 600;
+  font-family: "Josefin Sans", Sans-serif;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+.service-meta {
+  text-align: start;
+  display: flex;
+  justify-content: space-between;
+}
+.service-meta i {
+  color: #f39c14;
+}
+.service-meta .origin-price {
+  margin-right: 5px;
+  text-decoration: line-through;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: right;
+  font-weight: 400;
+  color: #666464;
+  font-family: "Josefin Sans", Sans-serif;
+}
+.service-meta .current-price {
+  text-align: right;
+  font-weight: 600;
+  color: #f46150;
+  font-family: "Josefin Sans", Sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+}
+.statistics {
+  background-color: #212121;
+  /* height: 202px; */
+  border-radius: 5px 5px 5px 5px;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  position: relative;
+  background-image: url('https://gentechtree.com/wp-themes/yog/wp-content/uploads/2021/04/Flower-1.png');
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  opacity: 1;
+  margin-top: -90px;
+}
+.counter-container {
+  display: flex;
+ align-items: center;
+  padding: 60px 0px 60px 17px;
+}
+.counter-info  {
+ color: #ffffff;
+ margin-left: 10px;
+}
+.counter-info span {
+  font-size: 48px;
+  line-height: 56px;
+  font-family: 'Josefin Sans', sans-serif;
+  
+}
+.counter-info p {
+  font-size: 14px;
+  line-height: 22px;
+  text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+.table-ul ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+.table-ul ul a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 30px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.table-ul ul .active {
+  background-color: #f46150;
+  border-radius: 5px;
+}
+.table-ul ul li .active {
+  color: #fff;
+
+}
+.table-ul ul li {
+  margin-right: 2rem;
+}
+.colored-tr {
+  background: #fbf5f1;
+}
+.table {
+  border-color: rgb(244, 97, 80,0.2)!important;
+  text-align: center!important;
+}
+.table thead tr th {
+color: #404040!important;
+font-weight: 400;
+font-family: 'Josefin Sans', sans-serif;
+}
+.table tbody tr th {
+  color: #404040!important;
+font-weight: 400;
+font-family: 'Josefin Sans', sans-serif;
+}
+.table tbody tr td a {
+ text-decoration: none;
+ font-size: 16px;
+ font-weight: 600;
+ font-family: 'Josefin Sans', sans-serif;
+ color: #f46150;
+
+}
+.table tbody tr td p {
+  font-size: 13px;
+  line-height: 22px;
+  font-weight: 400;
+  font-family: "Open Sans", Sans-serif;
+
+}
+.table-responsive {
+  margin-top: 5%!important;
+}
+.portfolio-img img {
+  width: 337px;
+  object-fit: cover;
+  transition: all 1.5s ease;
+ 
+}
+.bigger-pic img {
+  width: 100%;
+  object-fit: cover;
+}
+.portfolio {
+  position: relative;
+}
+.portfolio .container-fluid {
+  padding-left: 0px!important;
+  padding-right: 0px!important;
+}
+.portfolio-img {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+.portfolio-img:hover img {
+   -moz-transform: scale(1.25);
+  -webkit-transform: scale(1.25);
+  transform: scale(1.25);
+  filter: brightness(40%);
+  
+}
+.portfolio-info {
+  margin: auto;
+    position: absolute;
+    margin-top: -80px;
+    z-index: 2;
+    left: 30px;
+    opacity: 0;
+    background: transparent;
+    text-align: left;
+    color: #fff;
+    -webkit-border-radius: 0px;
+}
+.portfolio-info2 {
+  margin: auto;
+    position: absolute;
+    margin-top: -80px;
+    z-index: 2;
+    opacity: 0;
+    background: transparent;
+    text-align: left;
+    color: #fff;
+    -webkit-border-radius: 0px;
+    margin-left: 20px;
+}
+.portfolio-info3 {
+  margin: auto;
+    position: absolute;
+    margin-top: -80px;
+    z-index: 2;
+    opacity: 0;
+    background: transparent;
+    text-align: left;
+    color: #fff;
+    -webkit-border-radius: 0px;
+    margin-left: 20px;
+}
+.portfolio-img:hover + .portfolio-info {
+  opacity: 1;
+  transition: all 1.5s ease;
+}
+.portfolio-img:hover + .portfolio-info2 {
+  opacity: 1;
+  transition: all 1.5s ease;
+}
+.portfolio-img:hover + .portfolio-info3 {
+  opacity: 1;
+  transition: all 1.5s ease;
+}
+.portfolio-info, .portfolio-info2, .portfolio-info3 span {
+  line-height: 22px;
+  font-size: 16px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #f46150;
+}
+.portfolio-info, .portfolio-info2, .portfolio-info3 h5 a {
+  text-decoration: none;
+}
+.portfolio-info, .portfolio-info2, .portfolio-info3 h5 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.portfolio {
+  margin-top: 90px;
+}
+.custom-img {
+  display: none;
+}
+.card-plan .price-plan {
+  padding: 45px 30px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 30px 0 rgb(0 0 0 / 10%);
+ 
+}
+.price-plan .price-info {
+  text-align: center;
+  border-bottom: 2px solid #fbf5f1;
+  margin-bottom: 30px;
+}
+.price-info span {
+  line-height: 26px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: .1em;
+  color: #f46150;
+  padding: 0;
+}
+.price-info h2 {
+  font-size: 52px;
+  margin: 15px 0 0;
+  line-height: 60px;
+  font-weight: 600;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.price-info p {
+  color: #f46150;
+  font-weight: 400;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.price-list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.price-list .fa-check-circle {
+    color: #f46150;
+}
+.price-list .fa-times-circle {
+  color: #666464;
+}
+.price-list li {
+  padding: 10px 0;
+  font-size: 16px;
+  line-height: 2;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.price-list li a {
+  color: #666464;
+}
+.price-plan .price-button {
+  text-align: center;
+  margin-top: 40px;
+}
+.price-button span {
+  color: #fff;
+  font-weight: 400;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.price-button .btn:hover:hover {
+  background-color: #212121!important;
+  background-image:none;
+  transition: all 1.3s ease;
+}
+.background-image {
+  background-image: url('https://gentechtree.com/wp-themes/yog/wp-content/uploads/2021/04/1-4-1.jpg');
+  background-attachment: fixed;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  object-fit: cover;
+  height: 350px;
+  padding-top: 150px;
+  cursor: pointer;
+}
+
+.video-2 {
+  width: 90px;
+    height: 90px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+    text-align: center;
+    margin: 0 auto;
+}
+.video-2 .fa-play {
+  position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-top: 30%;
+    z-index: 99;
+    text-align: center;
+    color: #F58A7D;
+    font-size: 30px;
+}
+.background-video {
+  margin-top: 70px;
+  
+}
