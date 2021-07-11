@@ -68,14 +68,20 @@ width: 322px!important;
     margin-bottom: 10px!important;
   }
 .card-img img {
-  width: 290px!important;
+  width: 100%!important;
 }
-
+.about-us .list-item2 {
+  margin-left: 30px;
+}
 .row-flex {
   display: flex;
   flex-wrap: wrap;
 }
 
+.reviews .review-box {
+  width: auto;
+  margin-bottom: 20px;
+}
 
 @media screen and (max-width:991px) {
   .container {
@@ -161,7 +167,7 @@ width: 322px!important;
     display: none;
   }
   .card .card-img img {
-    width: 453px!important;
+    width: 100%!important;
   }
   .yoga-card .container {
     max-width: 1060px!important;
@@ -178,7 +184,9 @@ width: 322px!important;
   .custom-respons {
     display: none;
   }
-  
+  .reviews {
+    height: 1000px!important;
+  }
 }
 @media screen and (min-width:992px) and (max-width:1125px) {
   .main-article .images img:nth-child(2) {
@@ -210,7 +218,7 @@ width: 322px!important;
     display: none;
   }
   .card .card-img img {
-    width: 700px!important;
+    width: 100%!important;
   }
   .yoga-card {
     height: auto!important;
@@ -301,6 +309,12 @@ width: 322px!important;
     }
     .main-article .images img:nth-child(2) {
       width: 250px!important;
+    }
+    .reviews {
+      height: 1100px!important;;
+    }
+    .reviews .carousel-indicators {
+      bottom: 0px;
     }
   }
   @media screen and (max-width:421px) {
