@@ -82,6 +82,11 @@ width: 322px!important;
   width: auto;
   margin-bottom: 20px;
 }
+.footer-top .center-footer {
+  padding: 0;
+  text-align: left;
+  margin-top: 20px;
+}
 
 @media screen and (max-width:991px) {
   .container {
@@ -194,6 +199,7 @@ width: 322px!important;
     width: 302px!important;
   }
 }
+
 @media screen and (min-width:768px) and (max-width:992px){
   .about-us .about-img {
     margin-top: 30%!important;
@@ -243,6 +249,13 @@ width: 322px!important;
   }
   .portfolio-img img {
     width: 100vw!important;
+  }
+  .footer-top .social-footer ul {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  .footer-top .social-footer ul li a {
+    text-align: center;
   }
 }
 @media screen and (max-width:690px) {
@@ -311,10 +324,18 @@ width: 322px!important;
       width: 250px!important;
     }
     .reviews {
-      height: 1100px!important;;
+      height: 1200px!important;
     }
     .reviews .carousel-indicators {
       bottom: 0px;
+    }
+   .reviews .section-title h5 {
+      font-size: 35px;
+      margin-bottom: -10px;
+    }
+    .blog .section-title h5 {
+      font-size: 35px;
+      margin-bottom: -10px;
     }
   }
   @media screen and (max-width:421px) {
