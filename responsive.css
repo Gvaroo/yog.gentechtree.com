@@ -24,7 +24,11 @@ height: auto!important;
     font-size: 16px!important;
   }
 }
-
+@media screen and (min-width:1920px) {
+  .portfolio .portfolio-img img {
+    width: 100%;
+  }
+}
 @media screen and (max-width:1126px) {
   .container {
     max-width: 1060px!important;
@@ -238,7 +242,7 @@ width: 322px!important;
   .counter-info span {
     font-size: 28px!important;
   }
-  .gt-top-header {
+  .top-header {
     display: none;
   }
   .stat-table .table-ul ul a {

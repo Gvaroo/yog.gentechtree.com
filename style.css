@@ -5,8 +5,7 @@ html, body {
   height: 100%!important;
   
   }
-
-.gt-top-header {
+.top-header {
   background-color: black;
   font-size: 14px;
   height: 51px;
@@ -15,7 +14,7 @@ html, body {
  
   align-items: center;
 }
-.row a {
+.top-header .row a {
   text-decoration: none;
   color: #fff;
 }
@@ -26,6 +25,7 @@ html, body {
   padding-right: 15px;
   padding-left: 15px;
 }
+
 .gt-header-social ul {
   display: flex;
   list-style: none;
@@ -54,18 +54,36 @@ html, body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
 }
-.gt-bottom-header .row {
+.bottom-header {
+  background: #ffffff;
+  box-shadow: 0px 5px 15px 0px rgb(0 33 85 / 10%);
+      width: 100%;
+    min-height: 70px;
+  
+}
+
+.bottom-header .row {
   margin-right: -15px;
   margin-left: -15px;
 }
-
+.bottom-header .dropdown-menu .dropdown-item {
+  line-height: 2;
+  text-transform: capitalize;
+  padding: 8px 15px;
+  display: inline-block;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+}
+.bottom-header .dropdown-menu .dropdown-item:hover {
+  color: #f46150;
+  background-color: transparent!important;
+}
 .navbar-brand img {
   height: 45px;
 }
-.dropdown-menu {
-  background-color: gray;
-  color: gray;
-}
+
 .menu-contain {
   display: inline-block;
   width: 100%;
@@ -118,7 +136,8 @@ html, body {
 .main-article {
   height: 800px!important;
   width: 100%!important;
-  background: rgba(245, 238, 234, 0.5);
+  /* background: rgba(245, 238, 234, 0.5); */
+  background-image: url('http://yog.gentechtree.com/wp-content/uploads/revslider/Home-1/BG.jpg');
   
 }  
 .article-info span {
@@ -139,8 +158,11 @@ html, body {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 400;
 }
-.images {
+.main-article .carousel-item .images {
   margin-top: 10%;
+}
+.images {
+  margin-top: 20%;
   position: relative;
 }
 .images img {
@@ -166,6 +188,10 @@ html, body {
 }
 .buttons {
   display: flex;
+}
+.main-article .buttons .btn-primary:hover {
+  background-color: black!important;
+  border-color:black!important;
 }
 .buttons .video {
   width: 60px;
@@ -206,6 +232,9 @@ html, body {
 }
 .yoga-information {
   height: 200px;
+}
+.yoga-information a {
+  text-decoration: none;
 }
 .yoga-information .col-sm-4 {
   width: 25%;
@@ -263,6 +292,10 @@ html, body {
   width: 620px;
   height: 580px;
   object-fit: cover;
+}
+.about-us .btn-primary:hover {
+  background-color: black!important;
+  border-color: black!important;
 }
 .list-container {
   display: flex;
@@ -542,6 +575,10 @@ font-family: 'Josefin Sans', sans-serif;
     -webkit-border-radius: 0px;
     margin-left: 20px;
 }
+.portfolio a {
+  text-decoration: none;
+  color: #fff;
+}
 .portfolio-img:hover + .portfolio-info {
   opacity: 1;
   transition: all 1.5s ease;
@@ -645,6 +682,7 @@ font-family: 'Josefin Sans', sans-serif;
 }
 .price-button .btn:hover:hover {
   background-color: #212121!important;
+  border-color: black!important;
   background-image:none;
   transition: all 1.3s ease;
 }
@@ -1024,4 +1062,59 @@ footer {
 .copyright a {
   text-decoration: none;
   color: #fff;
+}
+.social-footer ul li a:hover {
+  background-color: #f46150;
+}
+main .about {
+  background-image: url('http://yog.gentechtree.com/wp-content/uploads/2021/04/bg-1-1.jpg');
+  background-size: auto!important;
+  background: #212121;
+  color: #ffffff;
+  padding: 90px 0;
+  position: relative;
+  text-align: center;
+  background-position: center left !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+ 
+}
+main .about h1 {
+  font-size: 56px;
+  line-height: 64px;
+  margin-bottom: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+
+}
+main .about ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+main .about li:first-child {
+  margin-right: 10px;
+}
+main .about .fa-home {
+  font-size: 16px;
+}
+main .about li {
+  margin-right: 15px;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+main .about li a:hover {
+  color: #f46150;
+  transition: all  ease-in-out;
+}
+main .about li i {
+  font-size: 12px;
+}
+main .about .active {
+  color: #f46150;
+}
+main .about a {
+  text-decoration: none;
+  color: white;
 }
