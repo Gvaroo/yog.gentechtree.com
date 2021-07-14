@@ -23,6 +23,25 @@ height: auto!important;
   .about-us .about-info p {
     font-size: 16px!important;
   }
+  .about-uss .about-img {
+    width: 500px!important;
+      }
+  .about-uss .about-img img {
+width: 500px!important;
+height: auto!important;
+  }
+  .about-uss .about-info {
+    margin-top: 0px!important;
+  }
+  .about-uss .about-info span {
+    font-size: 18px!important;
+  }
+  .about-uss .about-info h1 {
+    font-size: 28px!important;
+  }
+  .about-uss .about-info p {
+    font-size: 16px!important;
+  }
 }
 @media screen and (min-width:1920px) {
   .portfolio .portfolio-img img {
@@ -91,6 +110,9 @@ width: 322px!important;
   text-align: left;
   margin-top: 20px;
 }
+.benifits {
+  height: 1040px!important;
+}
 
 @media screen and (max-width:991px) {
   .container {
@@ -147,6 +169,16 @@ width: 322px!important;
     width: auto!important;
     
   }
+  .about-uss {
+    height: 990px!important;
+  }
+  .about-uss .col-md-12 {
+    text-align: center!important;
+  }
+  .about-uss .about-img {
+    width: auto!important;
+    
+  }
   .about-img img {
     height: auto!important;
     width: 100!important;
@@ -196,18 +228,33 @@ width: 322px!important;
   .reviews {
     height: 1000px!important;
   }
+  .about-uss .info-containers {
+    margin-top: 120px!important;
+  }
+  main .benifits {
+    height: 1600px!important;
+  }
+  .benifits .col-md {
+    margin-top: 25px;
+  }
 }
+
 @media screen and (min-width:992px) and (max-width:1125px) {
   .main-article .images img:nth-child(2) {
     margin: 0!important;
     width: 302px!important;
   }
 }
-
+@media screen and (max-width:1038px) {
+  .benifits {
+    height: 1100px!important;
+  }
+}
 @media screen and (min-width:768px) and (max-width:992px){
   .about-us .about-img {
     margin-top: 30%!important;
   }
+
   .stat-table .table-ul ul li {
     margin-right: 0px;
   }
@@ -220,6 +267,12 @@ width: 322px!important;
   }
   .about-us {
     height: 1090px!important;
+  }
+  .about-uss {
+    height: 1000px!important;
+  }
+  .about-uss .about-img {
+    margin-top: 0px!important;
   }
   .about-img {
     margin-top: 50%!important;
@@ -261,6 +314,18 @@ width: 322px!important;
   .footer-top .social-footer ul li a {
     text-align: center;
   }
+  .blogs {
+    height: 860px!important;
+  }
+  main .benifits {
+    height: 2200px!important;
+  }
+  .benifits .col-md {
+    margin: 0px!important;
+  }
+  .benifits .col-sm-12 {
+    margin-bottom: 25px;
+  }
 }
 @media screen and (max-width:690px) {
   .counter-info span {
@@ -283,8 +348,16 @@ width: 322px!important;
     padding: 0px 10px;
   }
 }
+@media screen and (max-width:645px) {
+  main .benifits {
+    height: 2380px!important;
+  }
+}
 @media screen and (max-width:608px) {
   .about-us {
+    margin-top: 20%!important;
+  }
+  .about-uss {
     margin-top: 20%!important;
   }
   .statistics {
@@ -299,9 +372,24 @@ width: 322px!important;
   }
   
   }
-  @media screen and (max-width:480px) {
+  @media screen and (max-width:481px) {
     .about-us {
       height: auto!important;
+    }
+    .about-uss {
+      height: auto!important;
+    }
+    .about-uss .about-img {
+      margin-top: 0%!important;
+    }
+    .about-us .about-img img {
+      width: 410px!important;
+    }
+    .about-uss .about-img img {
+      width: 410px!important;
+    }
+    .about-uss .info-containers {
+      margin-top: 50px!important;
     }
     .yoga-information {
       height: auto!important;
@@ -342,6 +430,14 @@ width: 322px!important;
       margin-bottom: -10px;
     }
   }
+  @media screen and (max-width:441px) {
+    .about-us .about-img img {
+      width: 380px!important;
+    }
+    .about-uss .about-img img {
+      width: 380px!important;
+    }
+  }
   @media screen and (max-width:421px) {
     .about-us  .about-img img {
       width: 300px!important;
@@ -362,4 +458,28 @@ width: 322px!important;
     .main-article .buttons span {
       font-size:16px!important;
     }
+    .about-uss  .about-img img {
+      width: 300px!important;
+      }
+      .about-uss .info-container {
+        margin-top: -40%!important;
+      }
+      .about-uss .info-containers {
+        margin-top: -70px!important;
+      }
   }
+@media screen and (max-width:385px) {
+  main .benifits {
+    height: 2480px!important;
+  }
+}
+@media screen and (max-width:376px) {
+  main .benifits {
+    height: 2510px!important;
+  }
+}
+@media screen and (max-width:330px) {
+  main .benifits {
+    height: 2690px!important;
+  }
+}

@@ -622,6 +622,9 @@ font-family: 'Josefin Sans', sans-serif;
   box-shadow: 0 0 30px 0 rgb(0 0 0 / 10%);
  
 }
+.card-plan a {
+  text-decoration: none;
+}
 .price-plan .price-info {
   text-align: center;
   border-bottom: 2px solid #fbf5f1;
@@ -863,7 +866,7 @@ font-family: 'Josefin Sans', sans-serif;
   width: 100%;
   position: relative;
 }
-.blog-info .post-date {
+.post-date {
   font-weight: 400;
   background: #f46150;
   padding: 5px 15px;
@@ -883,14 +886,14 @@ font-family: 'Josefin Sans', sans-serif;
 .post-date a span {
   width: 100%;
 }
-.blog-info .post-meta ul {
+.post-meta ul {
   margin: 0 0 15px 0;
   padding: 0;
   display: inline-block;
   width: 100%;
   float: left;
 }
-.blog-info .post-meta ul li {
+.post-meta ul li {
   display: inline-block;
   padding: 0 15px 0 0;
   margin: 0 15px 0 0;
@@ -1117,4 +1120,134 @@ main .about .active {
 main .about a {
   text-decoration: none;
   color: white;
+}
+main .about-uss {
+  height: 607px;
+  margin-top: 80px;
+}
+.about-uss .btn-primary:hover {
+  background-color: black!important;
+  border-color: black!important;
+}
+.about-uss .info-containers {
+  margin-top: 40px;
+}
+.blogs {
+  height: 800px;
+  background-color: #212121;
+  margin-top: 90px;
+}
+.blog-infoo {
+  padding: 30px 30px;
+  box-shadow: 0px 0px 30px 0px rgb(33 33 33 / 10%);
+  background: #ffffff;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+.blogs .section-title {
+  color: #fff;
+}
+.blogs .section-title span {
+  color: #fff!important;
+}
+.blogs .post-meta span {
+  color: #f46150;
+  margin: 0 0 5px;
+}
+.blogs .card-img {
+  cursor: pointer;
+  overflow: hidden;
+}
+.blogs .card-img img {
+  width: 410px;
+}
+.blogs .card-img img {
+  transition: all 1.5s ease;
+}
+.blogs .card-img:hover img {
+  -moz-transform: scale(1.30);
+  -webkit-transform: scale(1.30);
+  transform: scale(1.30);
+}
+.service-mediaa {
+  position: absolute;
+  top: -40px;
+  right: 30px;
+  width: 75px;
+  height: 75px;
+  text-align: center;
+  color: #ffffff;
+  border: 3px solid #ffffff;
+  border-radius: 700px;
+  background-color: black;
+  font-size: 24px;
+  line-height: 60px;
+}
+.benifits {
+  height: 940px;
+  background-color: #212121;
+  margin-top: 150px;
+}
+.benifits .section-title {
+  color: #fff;
+}
+.benifits .section-title span {
+  color: #fff!important;
+}
+.benifits .section-title p {
+  max-width: 56%;
+  margin: 0 auto;
+}
+.benifits .box-container {
+  padding: 30px;
+  background: #ffffff;
+  box-shadow: 0 0 30px 0 rgb(0 0 0 / 10%);
+  border-radius: 5px;
+}
+.benifits .box-container .box-media {
+  margin-bottom: 30px;
+}
+.box-media i {
+  font-size: 62px;
+  line-height: 70px;
+  color: #f46150;
+}
+.box-media span {
+  font-weight: 900;
+  right: 15px;
+  font-size: 72px;
+  line-height: 80px;
+  display: inline-block;
+  float: right;
+  color: #666464;
+  opacity: 0.1;
+}
+.box-content h5 {
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  margin: 0;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 10px;
+}
+.box-content p {
+  margin-bottom: 30px;
+  color: #666464;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.box-button .btn-link {
+  color: #f46150;
+  padding: 0;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+ font-size: 18px;
+ font-weight: 400;
+}
+.benifits .form-group {
+  margin-bottom: 25px;
 }
