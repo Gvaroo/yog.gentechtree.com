@@ -178,6 +178,25 @@ html, body {
   right: 0;
   width: 602px;
 }
+
+@keyframes animate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.main-article .images .anim-image img {
+  position: absolute;
+  z-index: 39;
+  margin-top: 7%;
+  top: 0;
+  left: 30px;
+  right: 0;
+  width: 500px;
+  animation: animate 6.5s linear infinite;
+}
 .btn-primary {
   width: 180px;
   background-color: #f46150!important;
@@ -1250,4 +1269,118 @@ main .about-uss {
 }
 .benifits .form-group {
   margin-bottom: 25px;
+}
+.contact-info {
+  height: 600px;
+  background-color: #fbf5f1;
+}
+.contact-info .info-container {
+  padding: 45px 30px 45px 30px;
+  background-color: #ffff;
+  border-radius: 5px;
+  margin: 0px 0px 0px 0px;
+  text-align: center;
+}
+
+.info-content {
+  margin-top: 40px;
+}
+.info-content h3 {
+  font-size: 32px;
+  line-height: 40px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.info-content p {
+  font-family: 'Open Sans', sans-serif;
+  color: #666464;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+.info-img span {
+  background-color: #F46150;
+  font-size: 38px;
+  padding: .5em;
+  color: #fff;
+  border-radius: 50%;
+}
+.info-img i {
+  font-size: 48px;
+}
+main .contact {
+  box-shadow: 0px 0px 30px 0px rgb(33 33 33 / 10%);
+  margin-bottom: 130px;
+  padding: 0px 0px 0px 0px;
+  border-radius: 5px;
+ 
+}
+.contact .form-title span {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #f46150;
+ font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  padding: 0;
+  margin: 0 0 8px;
+}
+.contact .form-title h5 {
+  font-weight: 600;
+   font-size: 48px;
+  line-height: 56px;
+  text-transform: capitalize;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.contact .form .form-control {
+  background: #fbf5f1;
+  border: 1px solid #fbf5f1;
+  color: #212121;
+  width: 100%;
+  float: left;
+  font-size: 16px;
+  padding: 0 15px 0 15px;
+  height: 54px;
+  line-height: 54px;
+  outline: none;
+  transition: all 0.5s ease-in-out;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.contact textarea {
+  background: #fbf5f1;
+  border: 1px solid #fbf5f1;
+  color: #212121;
+  width: 100%;
+  float: left;
+  padding: 10px 30px;
+  outline: none;
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+  margin-bottom: 30px;
+}
+.contact .submit-button {
+  padding: 10px 30px!important;
+  background: #f46150!important;
+  color: #fff!important;
+  border: none!important;
+  width: 30%!important;
+  height: auto!important;
+  border-radius: 5px!important;
+  line-height: 2!important;
+}
+.contact input:hover {
+  border-color: red!important;
+}
+.contact textarea:hover {
+  border-color: red!important;
+}
+.contact .submit-button:hover {
+  background-color: black!important;
+}
+.contact .container {
+  margin-left: 20px;
+}
+#map {
+  height: 100%;
 }
