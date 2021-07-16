@@ -57,10 +57,10 @@ height: auto!important;
     margin-top: -90px!important;
     padding: 30px 30px 30px!important;
   }
-  .main-article .article-info {
+  .main-article, .classes-article .article-info {
     margin-top: 20%;
   }
-  .main-article .images img {
+  .main-article, .classes-article .images img {
 width: 322px!important;
   }
   .images img:nth-child(2) {
@@ -130,6 +130,10 @@ main .contact .col-md-6 .container {
 }
 main .contact .submit-button {
   width: auto!important;
+}
+main .classes-article .carousel-image-3 .classes-image img:nth-child(2) {
+  width: 350px!important;
+  left: -120px!important;
 }
 @media screen and (max-width:991px) {
   .container {
@@ -260,13 +264,43 @@ main .contact .submit-button {
   .contact-info {
     height: 950px!important;
   }
+  main .classes-article {
+    margin-bottom: 20px!important;
+  }
+  main .about-us .about-classes {
+    margin-top: 5%!important;
+  }
 }
+main .classes-article {
+  height: 750px!important;
+}
+.classes-article .article-info {
+  margin-top: 5%!important;
+}
+.classes-article .classes-image img:nth-child(1){
+  left: 0!important;
+  width: 400px!important;
+  margin-top: -9%!important;
 
-@media screen and (min-width:992px) and (max-width:1125px) {
-  .main-article .images img:nth-child(2) {
+}
+.classes-article .classes-image img:nth-child(2) {
+  margin: 0 auto;
+  width: 200px!important;
+  top: -20px;
+  left: 0px!important;
+}
+.courses .hidden-1 {
+  display: none!important;
+}
+@media screen and (min-width:992px) and (max-width:1126px) {
+  .main-article, .classes-article .images img:nth-child(2) {
     margin: 0!important;
     width: 302px!important;
   }
+  main .classes-article {
+    height: 450px!important;
+  }
+ 
 }
 @media screen and (max-width:1038px) {
   .benifits {
@@ -384,11 +418,11 @@ main .contact .submit-button {
   .counter-info p {
     font-size: 12px!important;
   }
-  .main-article .images img {
+  .main-article, .classes-article .images img {
     width: 302px!important;
   }
 }
-  .main-article .images img:nth-child(2) {
+  .main-article, .classes-article .images img:nth-child(2) {
     width: 302px;
     margin: 0 auto;
   }
@@ -425,6 +459,9 @@ main .contact .submit-button {
   .statistics .counter-info p {
     font-size: 16px!important;
   }
+  main .about-class {
+        margin-top: 0px!important;
+  }
   
   }
   @media screen and (max-width:560px) {
@@ -436,6 +473,18 @@ main .contact .submit-button {
     main .main-article .images .anim-image img {
       left: 90px!important;
     }
+    main .classes-article .classes-image :nth-child(1) {
+      width: 300px!important;
+    }
+    main .classes-article .classes-image :nth-child(2) {
+      width: 160px!important;
+    }
+   main .classes-article {
+    height: 600px!important;
+   }
+   main .classes-article .carousel-image-3 .classes-image img:nth-child(2){
+    width: 250px!important;
+   }
   }
   @media screen and (max-width:481px) {
     .about-us {
@@ -514,7 +563,7 @@ main .contact .submit-button {
       .about-us .info-container {
         margin-top: -40%!important;
       }
-    .main-article .article-info h1 {
+    .main-article, .classes-article .article-info h1 {
       font-size: 26px!important;
     }
     .yoga-card .card .card-img img {
@@ -524,7 +573,7 @@ main .contact .submit-button {
     main .main-article {
       height: 700px!important;
     }
-    .main-article .buttons span {
+    .main-article, .classes-article .buttons span {
       font-size:16px!important;
     }
     .about-uss  .about-img img {
@@ -536,11 +585,15 @@ main .contact .submit-button {
       .about-uss .info-containers {
         margin-top: -70px!important;
       }
+      main .about-class {
+        margin-top: 50%!important;
+      }
   }
   @media screen and (max-width:399px) {
     main .main-article .images .anim-image img {
       left: 60px!important;
     }
+   
   }
 @media screen and (max-width:385px) {
   main .benifits {
