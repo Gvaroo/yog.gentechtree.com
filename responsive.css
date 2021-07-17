@@ -48,6 +48,17 @@ height: auto!important;
     width: 100%;
   }
 }
+@media screen and (min-width:993px) and (max-width:1126px) {
+  .main-article .images img:nth-child(2) {
+    left: 120px!important;
+    top: 70px!important;
+  }
+ main .main-article .anim-image img {
+    left: 40px!important;
+    width: 500px!important;
+    margin-top: 40px!important;
+  }
+}
 @media screen and (max-width:1126px) {
   .container {
     max-width: 1060px!important;
@@ -67,11 +78,7 @@ width: 322px!important;
     width: 322px!important;
     margin: 0px;
   }
-   .main-article .images .anim-image img {
-    margin-top: 15px!important;
-    left: 20px!important;
-    width: 290px!important;
-  }
+ 
   .about-img {
     width: 450px!important;
     height: 440px!important;
@@ -167,13 +174,15 @@ main .classes-article .carousel-image-3 .classes-image img:nth-child(2) {
   .images img{
     width: 322px!important;
   }
-  .images img:nth-child(2) {
+ .main-article .images img:nth-child(2) {
     width: 322px!important;
-    margin-left: 180px;
+   margin: 0 auto;
     margin-top: 0;
   }
   main .main-article .images .anim-image img {
     left: 200px!important;
+    margin-top: 3%;
+    width: 290px!important;
   }
   .element-container {
     padding: 30px 30px 3px 40px!important;
@@ -292,6 +301,18 @@ main .classes-article {
 .courses .hidden-1 {
   display: none!important;
 }
+main .clients-reviews {
+  height: 850px;
+}
+.clients-reviews .info {
+  margin-top: 40%;
+}
+.clients-reviews h5 {
+  font-size: 28px;
+}
+.clients-reviews p {
+  font-size: 14px;
+}
 @media screen and (min-width:992px) and (max-width:1126px) {
   .main-article, .classes-article .images img:nth-child(2) {
     margin: 0!important;
@@ -311,6 +332,7 @@ main .classes-article {
   main .contact .col-md-6 .container {
     margin-left: 150px!important;
   }
+
 }
 @media screen and (min-width:768px) and (max-width:992px){
   .about-us .about-img {
@@ -404,6 +426,17 @@ main .classes-article {
   main .contact .col-md-6 .container {
     margin: 0px!important;
     margin-top: 50px!important;
+  }
+ main .clients-reviews {
+    height: 1250px;
+  }
+main   .clients-reviews .info {
+    margin-top: 2rem;
+  }
+}
+@media screen and (max-width:717px) {
+  .latest-project .table-ul li {
+    margin-right: 0px;
   }
 }
 @media screen and (max-width:715px) {
@@ -528,7 +561,7 @@ main .classes-article {
     }
     main .main-article .images .anim-image img {
       width: 220px!important;
-      left: 90px!important;
+      left: 110px!important;
     }
     .main-article .images img:nth-child(2) {
       width: 250px!important;

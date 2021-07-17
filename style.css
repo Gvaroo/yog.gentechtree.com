@@ -163,11 +163,17 @@ html, body {
 .images {
   margin-top: 20%;
   position: relative;
+  
 }
 .images img {
   width: 580px;
   
 }
+.images .border-img {
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+}
+
 .images img:nth-child(2) {
   position: absolute;
   z-index: 40;
@@ -1621,5 +1627,85 @@ main .types-3 .btn-link {
   font-family: 'Josefin Sans', sans-serif;
   color: #f46150;
   font-size: 18px;
+}
+.clients-reviews {
+margin-top: 100px;
+background-color: #212121;
+color: #fff;
+height: 800px;
+padding-top: 100px;
+}
+.latest-project a {
+  text-decoration: none!important;
+  
+}
+.latest-project .container-fluid {
+  margin-top: 4rem;
+}
+.latest-project h5 a {
+  color: #fff!important;
+}
+.project-container {
+  margin-left: 1rem;
+}
+.clients-reviews .img-container img {
+  border-radius: 5px;
+  max-width: 100%;
+  height: auto;
+}
+.clients-reviews .info span {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.clients-reviews .info h5 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 56px;
+  text-transform: capitalize;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.clients-reviews .info p {
+  margin-bottom: 30px;
+  font-size: 16px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  margin-top: 0;
+}
+.clients-reviews .client-box {
+  display: flex;
+  margin-bottom: 5px;
+}
+.clients-reviews .client-img img {
+  margin-right: 15px;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+}
+.clients-reviews .client-info {
+  align-self: center!important;
+}
+.client-info h5 {
+  font-size: 24px;
+  line-height: 32px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.client-info p {
+  text-transform: uppercase;
+  margin-bottom: 0;
+  color: #f46150;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.clients-reviews .review-stars {
+  color: #f6bb21;
+  margin-top: 2rem;
+}
+.blog .section-title p {
+  max-width: 56%;
+  margin: 0 auto;
 }
 /* /// */
