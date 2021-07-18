@@ -47,6 +47,9 @@ height: auto!important;
   .portfolio .portfolio-img img {
     width: 100%;
   }
+  .yoga-types .types-container {
+    height: 478px;
+  }
 }
 @media screen and (min-width:993px) and (max-width:1126px) {
   .main-article .images img:nth-child(2) {
@@ -125,8 +128,11 @@ width: 322px!important;
 .benifits {
   height: 1040px!important;
 }
+main .contact {
+  padding-top: 50px!important;
+}
 .contact .img-wrapper img {
-  width: 480px;
+  width: 100%!important;
 }
 main .contact .container {
   margin-left: 0px!important;
@@ -313,6 +319,9 @@ main .clients-reviews {
 .clients-reviews p {
   font-size: 14px;
 }
+.latest-project .custom-img {
+  display: block;
+}
 @media screen and (min-width:992px) and (max-width:1126px) {
   .main-article, .classes-article .images img:nth-child(2) {
     margin: 0!important;
@@ -328,12 +337,7 @@ main .clients-reviews {
     height: 1100px!important;
   }
 }
-@media screen and (max-width:990px) {
-  main .contact .col-md-6 .container {
-    margin-left: 150px!important;
-  }
 
-}
 @media screen and (min-width:768px) and (max-width:992px){
   .about-us .about-img {
     margin-top: 30%!important;
@@ -343,14 +347,7 @@ main .clients-reviews {
     margin-right: 0px;
   }
 }
-@media screen and (max-width:871px) {
-  main .contact .col-md-6 .container {
-    margin-left: 30px!important;
-  }
-  main .contact .img-wrapper img {
-    width: 380px!important;
-  }
-}
+
 }
 @media screen and (max-width:767px) {
  .container {
@@ -636,6 +633,9 @@ main   .clients-reviews .info {
 @media screen and (max-width:376px) {
   main .benifits {
     height: 2510px!important;
+  }
+  .latest-project .table-ul ul li a {
+    font-size: 14px;
   }
 }
 @media screen and (max-width:355px) {

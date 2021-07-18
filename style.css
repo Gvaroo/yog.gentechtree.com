@@ -535,7 +535,7 @@ font-family: 'Josefin Sans', sans-serif;
   margin-top: 5%!important;
 }
 .portfolio-img img {
-  width: 337px;
+  width: 100%;
   object-fit: cover;
   transition: all 1.5s ease;
  
@@ -1336,7 +1336,10 @@ main .contact {
   border-radius: 5px;
  
 }
-.contact .form-title span {
+main .contact .img-wrapper img {
+  width: 100%;
+}
+.form-title span {
   font-weight: 600;
   font-size: 16px;
   line-height: 22px;
@@ -1347,14 +1350,14 @@ main .contact {
   padding: 0;
   margin: 0 0 8px;
 }
-.contact .form-title h5 {
+ .form-title h5 {
   font-weight: 600;
    font-size: 48px;
   line-height: 56px;
   text-transform: capitalize;
   font-family: 'Josefin Sans', sans-serif;
 }
-.contact .form .form-control {
+ .form .form-control {
   background: #fbf5f1;
   border: 1px solid #fbf5f1;
   color: #212121;
@@ -1370,7 +1373,7 @@ main .contact {
   margin-bottom: 30px;
 }
 
-.contact textarea {
+textarea {
   background: #fbf5f1;
   border: 1px solid #fbf5f1;
   color: #212121;
@@ -1382,7 +1385,7 @@ main .contact {
   transition: all 0.5s ease-in-out;
   margin-bottom: 30px;
 }
-.contact .submit-button {
+.submit-button {
   padding: 10px 30px!important;
   background: #f46150!important;
   color: #fff!important;
@@ -1392,20 +1395,21 @@ main .contact {
   border-radius: 5px!important;
   line-height: 2!important;
 }
-.contact input:hover {
+ input:hover {
   border-color: red!important;
 }
-.contact textarea:hover {
+ textarea:hover {
   border-color: red!important;
 }
-.contact .submit-button:hover {
+ .submit-button:hover {
   background-color: black!important;
 }
-.contact .container {
-  margin-left: 20px;
+ .contact .container {
+  /* margin-left: 20px; */
 }
 #map {
-  height: 100%;
+  height: 550px;
+  width: 100%;
 }
 /* Yoga-Classes Page */
 .classes-article {
@@ -1645,6 +1649,9 @@ padding-top: 100px;
 .latest-project h5 a {
   color: #fff!important;
 }
+.latest-project .portfolio-img img {
+  width: 100%!important;
+}
 .project-container {
   margin-left: 1rem;
 }
@@ -1707,5 +1714,59 @@ padding-top: 100px;
 .blog .section-title p {
   max-width: 56%;
   margin: 0 auto;
+}
+.place-information {
+  padding: 130px 0px 130px 0px;
+  background-color: #FBF5F1;
+  margin-top: 6rem;
+  margin-bottom: 0px;
+}
+.place-information .place-wrapper {
+  padding: 0px 15px 0px 15px;
+}
+.place-information .place-quota span {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #f46150;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  padding: 0;
+  margin: 0 0 8px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.place-information .place-quota h5 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 56px;
+  color: black;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.place-information .place-quota p {
+  color: #666464;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.place-information .icon-wrapper {
+  display: flex;
+  
+}
+.place-information .place-icon {
+  margin-right: 20px;
+  font-size: 32px;
+}
+.place-icon i {
+  fill: #F46150;
+  color: #F46150;
+  border-color: #F46150;
+}
+.place-form {
+  background-color: #FFFFFF;
+  padding: 30px 45px 30px 45px;
+}
+.place-form .submit-button {
+  width: auto!important;
 }
 /* /// */
