@@ -5,6 +5,8 @@ html, body {
   height: 100%!important;
   
   }
+ /* HOME PAGE */
+ 
 .top-header {
   background-color: black;
   font-size: 14px;
@@ -1111,6 +1113,12 @@ footer {
 .social-footer ul li a:hover {
   background-color: #f46150;
 }
+/* ///////////////// */
+
+/* 
+ABOUT US PAGE */
+
+
 main .about {
   background-image: url('http://yog.gentechtree.com/wp-content/uploads/2021/04/bg-1-1.jpg');
   background-size: auto!important;
@@ -1293,6 +1301,10 @@ main .about-uss {
 .benifits .form-group {
   margin-bottom: 25px;
 }
+/* ///////////// */
+
+/* contact-us page  */
+
 .contact-info {
   height: 600px;
   background-color: #fbf5f1;
@@ -1411,7 +1423,13 @@ textarea {
   height: 550px;
   width: 100%;
 }
+
+/* ///////////////// */
+
+
 /* Yoga-Classes Page */
+
+
 .classes-article {
   height: 650px!important;
   width: 100%!important;

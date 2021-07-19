@@ -14,7 +14,7 @@
   <script src="https//cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.4/jquery.touchSwipe.min.js"></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
     integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
-
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;0,700;1,400&display=swap"
     rel="stylesheet">
   <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
@@ -179,13 +179,13 @@
             <div class="container">
               <div class="row no-gutters">
                 <div class="col-lg-6 col-md-12 col-sm-12">
-                  <div class="article-info">
+                  <div class="article-info" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="600">
                     <span>// Mindfulness Yoga</span>
                     <h1>Here The Now Where Yoga Begins</h1>
                     <p>There are many variations of passages of Lorem Ipsum available but the majority have suffered
                       alteration</p>
                   </div>
-                  <div class="buttons">
+                  <div class="buttons" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="6000">
                     <button type="button" class="btn btn-primary btn-lg">Read More</button>
                     <div class="video">
                       <i class="fas fa-play"></i>
@@ -2119,5 +2119,6 @@
     })
 
   </script>
-
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
 </body>

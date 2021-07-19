@@ -386,8 +386,9 @@ main .clients-reviews {
   .top-header {
     display: none;
   }
-  .stat-table .table-ul ul a {
+  main .stat-table .table-ul ul a {
     padding: 0px 10px!important;
+    font-size: 14px!important;
   }
   .stat-table .table-ul ul li {
     margin-right: 0px;
@@ -458,8 +459,9 @@ main   .clients-reviews .info {
   }
 }
 @media screen and (max-width:659px) {
-  .table-ul ul a {
+  .stat-table .table-ul ul a  {
     padding: 0px 10px;
+    font-size: 14px!important;
   }
 }
 @media screen and (max-width:645px) {
@@ -628,6 +630,10 @@ main   .clients-reviews .info {
 @media screen and (max-width:385px) {
   main .benifits {
     height: 2480px!important;
+  }
+  main .stat-table .table-ul ul a {
+    
+    font-size: 12px!important;
   }
 }
 @media screen and (max-width:376px) {
