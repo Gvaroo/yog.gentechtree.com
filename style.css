@@ -5,6 +5,7 @@ html, body {
   height: 100%!important;
   
   }
+ 
  /* HOME PAGE */
  
 .top-header {
@@ -549,6 +550,10 @@ font-family: 'Josefin Sans', sans-serif;
 .portfolio {
   position: relative;
 }
+.portfolio a {
+  text-decoration: none!important;
+  color: #fff!important;
+}
 .portfolio .container-fluid {
   padding-left: 0px!important;
   padding-right: 0px!important;
@@ -575,7 +580,7 @@ font-family: 'Josefin Sans', sans-serif;
     background: transparent;
     text-align: left;
     color: #fff;
-    -webkit-border-radius: 0px;
+    border-radius: 0px;
 }
 .portfolio-info2 {
   margin: auto;
@@ -589,6 +594,34 @@ font-family: 'Josefin Sans', sans-serif;
     -webkit-border-radius: 0px;
     margin-left: 20px;
 }
+.portfolio-button {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, .5);
+  border-radius: 50%;
+  opacity: 0;
+  color:#f46150;
+  z-index: 10;
+}
+.portfolio-button i {
+  color:#f46150;
+  margin: 16px;
+}
+.portfolio-button a {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: #f46150;
+}
 .portfolio-info3 {
   margin: auto;
     position: absolute;
@@ -601,10 +634,8 @@ font-family: 'Josefin Sans', sans-serif;
     -webkit-border-radius: 0px;
     margin-left: 20px;
 }
-.portfolio a {
-  text-decoration: none;
-  color: #fff;
-}
+
+
 .portfolio-img:hover + .portfolio-info {
   opacity: 1;
   transition: all 1.5s ease;
@@ -1120,17 +1151,28 @@ ABOUT US PAGE */
 
 
 main .about {
-  background-image: url('http://yog.gentechtree.com/wp-content/uploads/2021/04/bg-1-1.jpg');
-  background-size: auto!important;
-  background: #212121;
   color: #ffffff;
   padding: 90px 0;
   position: relative;
   text-align: center;
-  background-position: center left !important;
-  background-repeat: no-repeat !important;
-  background-attachment: fixed !important;
- 
+  position: relative;
+  z-index: 12;
+  overflow: hidden;
+  background: #212121;
+}
+.bg-effect {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin-bottom: 0 !important;
+  z-index: -1;
+  opacity: 0.1;
+  top: 0;
+}
+.bg-effect img {
+  height: auto;
+  max-width: 100%;
+  top: 0;
 }
 main .about h1 {
   font-size: 56px;
@@ -1788,3 +1830,259 @@ padding-top: 100px;
   width: auto!important;
 }
 /* /// */
+
+
+/* YOGA STUDIO PAGE */
+
+main .studio-main {
+  background-image: url('http://yog.gentechtree.com/wp-content/uploads/2021/06/1.jpg')!important;
+  background-position:center;
+  height: 560px!important;
+}
+
+.studio-main .article-info {
+  margin-top: 25%;
+}
+.types-yoga {
+ 
+  position: relative;
+  z-index: 20;
+  margin-top: -90px;
+}
+.types-yoga .container {
+  background-color: white!important;
+  border-radius: 5px 5px 5px 5px;
+}
+.types-yoga .typess-box {
+  padding: 33px 33px 33px 33px;
+  }
+.typess-box img {
+  width: 67px;
+  height: 66px;
+}
+.typess-box h5 {
+  font-size: 24px;
+  line-height: 32px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #161616;
+}
+.learn-more {
+  margin-top: -130px;
+  margin-bottom: 0px;
+  padding: 130px 0px 90px 0px;
+  background-color: #F46150;
+  position: relative;
+  text-align: center;
+}
+
+.learn-text h2 {
+  color: #FFFFFF;
+  font-family: "Josefin Sans", Sans-serif;
+  line-height: 1.8em;
+  text-shadow: 0px 0px 10px rgb(0 0 0 / 30%);
+  padding: 0;
+  max-width: 60%;
+  font-size: 36px;
+  margin: 60px auto 0 auto;
+}
+.learn-button .btn-secondary {
+   color: #fff;
+   background-color: #161616;
+   font-family: "Josefin Sans", Sans-serif;
+   margin-top: 1rem;
+}
+.benifits .box-content span {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #f46150;
+}
+.h5-border {
+  border-bottom: 1px solid #fbf5f1;
+}
+.studio-benifits {
+  background-color: #fbf5f1!important; 
+  margin-top: 0px!important; 
+  height: 650px!important;
+}
+.studio-services .services-img-wrapper {
+  position: relative;
+}
+.studio-services .services-img-wrapper img {
+  height: auto;
+    max-width: 100%;
+}
+.studio-services .services-text span {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #f46150;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  padding: 0;
+  font-family: "Josefin Sans", Sans-serif;
+}
+.studio-services .services-text h5 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 56px;
+  text-transform: capitalize;
+  font-family: "Josefin Sans", Sans-serif;
+  color: black;
+  margin-top: 8px;
+}
+.studio-services .services-text p {
+  margin-bottom: 30px;
+  font-size: 16px;
+  color: #666464;
+  font-family: 'Open Sans', sans-serif;
+}
+.progressbar-content {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.progressbar-content span {
+  margin: 0;
+  font-size: 20px;
+  line-height: 28px;
+  color: #212121;
+  font-weight: 700;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.progressbar-content .value {
+  color: #f46150;
+  margin: 0;
+  float: right;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+  font-family: 'Josefin Sans';
+}
+.progressbar-content .progress  {
+  background: #FBF5F1;
+  border-radius: 5px;
+  margin-top: 5px;
+  height: 5px;
+}
+.progressbar-content .progress-bar {
+  background: #f46150;
+  }
+.studio-services .counter {
+  margin: 0px 0px 0px 0px;
+  padding: 45px 45px 45px 45px;
+  background-color: #f46150;
+  border-radius: 5px 5px 5px 5px;
+  position: absolute;
+  top: 5%;
+  width: auto;
+  left: -15%;
+  text-align: center;
+  z-index: 20;
+}
+.studio-services .counter span {
+  color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 69px;
+}
+.studio-services .counter p {
+  color: #FFFFFF;
+  font-weight: 600;
+  line-height: 1.5em;
+  font-size: 19px;
+}
+.cosmetics .container-fluid {
+  border-radius: 5px 5px 5px 5px;
+  background-color: #212121;
+}
+.cosmetics .cosmetics-box {
+  padding: 33px 33px 33px 33px;
+}
+.cosmetics-box img {
+  width: 180px;
+  
+}
+.pricebox {
+  text-align: center;
+}
+.pricebox .price-detail {
+  position: relative;
+  padding: 30px;
+  background: #212121;
+  z-index: 12;
+  color: #ffffff;
+  overflow: hidden;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.price-detail span {
+  width: 100%;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+  font-size: 18px;
+  line-height: 26px;
+  font-family:  'Josefin Sans', sans-serif;
+}
+.price-detail h2 {
+  text-transform: capitalize;
+  font-weight: 600;
+  margin: 0;
+  font-size: 60px;
+  line-height: 68px;
+  color: #fff;
+  font-family:  'Josefin Sans', sans-serif;
+}
+.price-detail p {
+  margin-bottom: 30px;
+  font-size: 16px;
+  color: #fff;
+  font-family:  'Josefin Sans', sans-serif;
+}
+.price-detail .bg-effect {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin-bottom: 0 !important;
+  z-index: -1;
+  opacity: 0.1;
+}
+.bg-effect img {
+  height: auto;
+  max-width: 100%;
+}
+.studio-pricing .price-items {
+  margin: 0;
+  padding: 30px;
+  border: 2px solid #fbf5f1;
+  border-top: 0;
+  border-bottom: 0;
+}
+.price-items  li {
+  list-style: none;
+  line-height: 45px;
+}
+.studio-pricing .buttons-container {
+  border: 2px solid #fbf5f1;
+  border-top: 0;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  }
+.studio-pricing .buttons-container .btn-primary {
+  margin-bottom: 30px;
+  width: auto;
+  background: #f46150;
+  padding: 12px 45px;
+  line-height: 2;
+  vertical-align: middle;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  cursor: pointer;
+}
+.studio-pricing .btn-primary:hover {
+  background-color: #212121!important;
+  color: #fff!important;
+  border-color: #212121!important;
+}
+
+/* //////////////////////////// */

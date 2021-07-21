@@ -52,14 +52,17 @@ height: auto!important;
   }
 }
 @media screen and (min-width:993px) and (max-width:1126px) {
+  .main-article .images img:nth-child(1) {
+    width: 100%;
+  }
   .main-article .images img:nth-child(2) {
-    left: 120px!important;
+    left: 90px!important;
     top: 70px!important;
   }
  main .main-article .anim-image img {
-    left: 40px!important;
-    width: 500px!important;
-    margin-top: 40px!important;
+  left: 20px!important;
+  width: 92%!important;
+  margin-top: 20px!important;
   }
 }
 @media screen and (max-width:1126px) {
@@ -148,12 +151,25 @@ main .classes-article .carousel-image-3 .classes-image img:nth-child(2) {
   width: 350px!important;
   left: -120px!important;
 }
+
 @media screen and (max-width:991px) {
   .container {
     max-width: 720px!important;
   }
   .search-box, .shop-cart, .gt-toggle-btn {
     display: none;
+  }
+  main .studio-main .article-info {
+    margin-top: 60%!important;
+  }
+  main .studio-main .article-info span {
+    font-size: 15px!important;
+  }
+  main .studio-main .article-info h1 {
+    font-size: 26px!important;
+  }
+  main .studio-main .article-info p {
+    max-width: 70%!important;
   }
   .article-info {
     margin-top: 5%;
@@ -186,7 +202,8 @@ main .classes-article .carousel-image-3 .classes-image img:nth-child(2) {
     margin-top: 0;
   }
   main .main-article .images .anim-image img {
-    left: 200px!important;
+    /* left: 200px!important; */
+    left: 28%!important;
     margin-top: 3%;
     width: 290px!important;
   }
@@ -322,6 +339,12 @@ main .clients-reviews {
 .latest-project .custom-img {
   display: block;
 }
+main .studio-benifits {
+  height: 950px!important;
+}
+.studio-services .services-text {
+  margin-top: 1rem;
+}
 @media screen and (min-width:992px) and (max-width:1126px) {
   .main-article, .classes-article .images img:nth-child(2) {
     margin: 0!important;
@@ -431,6 +454,15 @@ main .clients-reviews {
 main   .clients-reviews .info {
     margin-top: 2rem;
   }
+  main .types-yoga .row {
+    text-align: center!important;
+  }
+  main .studio-benifits {
+    height: 1250px!important;
+  }
+  main .cosmetics .cosmetics-box {
+    text-align: center;
+  }
 }
 @media screen and (max-width:717px) {
   .latest-project .table-ul li {
@@ -468,10 +500,16 @@ main   .clients-reviews .info {
   main .benifits {
     height: 2380px!important;
   }
+  main .studio-benifits {
+    height: 1400px!important;
+  }
 }
 @media screen and (max-width:630px) {
   main .main-article .images .anim-image img {
     left: 140px!important;
+  }
+ main  .studio-services .counter {
+    padding: 25px 25px 25px 25px;
   }
 }
 @media screen and (max-width:608px) {
@@ -496,6 +534,11 @@ main   .clients-reviews .info {
   }
   
   }
+  @media screen and (max-width:575px) {
+    main .types-yoga {
+      margin-top: 0px!important;
+    }
+  }
   @media screen and (max-width:560px) {
     main .main-article .images .anim-image img {
       left: 110px!important;
@@ -518,7 +561,13 @@ main   .clients-reviews .info {
     width: 250px!important;
    }
   }
+  @media screen and (min-width:992px) and (max-width:1126px) {
+    main .studio-benifits {
+      height: 650px!important;
+    }
+  }
   @media screen and (max-width:481px) {
+
     .about-us {
       height: auto!important;
     }
@@ -579,6 +628,23 @@ main   .clients-reviews .info {
       font-size: 35px;
       margin-bottom: -10px;
     }
+  main .studio-services .counter {
+    padding: 3px 0px 0px 1px!important;
+    }
+    main .studio-services .counter span {
+      font-size: 40px;
+    }
+    main .studio-services .counter p {
+      font-size: 15px;
+    }
+  }
+  @media screen and (max-width:455px) {
+    main .studio-main .article-info h1 {
+      max-width: 40%!important;
+    }
+    main .studio-main .article-info span {
+      font-size: 12px!important;
+    }
   }
   @media screen and (max-width:441px) {
     .about-us .about-img img {
@@ -631,6 +697,9 @@ main   .clients-reviews .info {
   main .benifits {
     height: 2480px!important;
   }
+  main .studio-benifits {
+    height: 1480px!important;
+  }
   main .stat-table .table-ul ul a {
     
     font-size: 12px!important;
@@ -643,6 +712,9 @@ main   .clients-reviews .info {
   .latest-project .table-ul ul li a {
     font-size: 14px;
   }
+  main .studio-benifits {
+    height: 1510px!important;
+  }
 }
 @media screen and (max-width:355px) {
   main .main-article .images .anim-image img {
@@ -652,5 +724,8 @@ main   .clients-reviews .info {
 @media screen and (max-width:330px) {
   main .benifits {
     height: 2690px!important;
+  }
+  main .studio-benifits {
+    height: 1480px!important;
   }
 }
