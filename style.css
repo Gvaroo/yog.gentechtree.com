@@ -2086,3 +2086,282 @@ main .studio-main {
 }
 
 /* //////////////////////////// */
+
+/* SINGLE-COURSE PAGE */
+
+.course-box {
+  background-image: url(http://yog.gentechtree.com/wp-content/uploads/2021/04/bg-4.png)!important;
+}
+
+.course-infos {
+  padding: 70px 0;
+ 
+}
+.course-meta {
+  margin-bottom: 36px;
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  flex-wrap: wrap;
+}
+
+.instructor {
+  display: flex;
+}
+.instructor img {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  max-width: 100%;
+  margin-right: 10px;
+  
+}
+.instructor-info span {
+  color: #f46150;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5;
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.instructor-info a {
+  text-decoration: none;
+  color: #fff;
+}
+.instructor-info a p {
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: capitalize;
+  font-family: 'Josefin Sans', sans-serif;
+  
+}
+.categories {
+  display: flex;
+ 
+}
+.categories .category-icon {
+  margin-right: 10px;
+  padding-top: 5px;
+}
+.categories i{
+  font-size: 40px;
+} 
+.categories-info span {
+  color: #f46150;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5;
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.categories-info p {
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: capitalize;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #fff;
+}
+.course-review .stars {
+  display: flex;
+}
+.course-review .stars .far {
+  color: #CCC;
+  vertical-align: middle;
+}
+.review-text {
+  text-align: right;
+}
+.review-text span {
+  color: #f46150;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.5;
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  
+}
+.course-box h1 {
+  margin-bottom: 20px;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.5;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #fff;
+}
+.course-meta-secondary {
+  display: flex;
+  justify-content: space-between;
+  width: 52%;
+  /* flex-wrap: wrap; */
+}
+.course-meta-secondary i {
+  margin-right: 8px;
+  color: #f46150;
+ 
+}
+.course-meta-secondary span {
+   font-size: 16px;
+   font-weight: 600;
+   line-height: 1.5;
+   margin: 0;
+   font-family: 'Josefin Sans', sans-serif;
+   color: #fff;
+}
+.course-description {
+  margin-top: 60px;
+}
+.description-box .description-head  {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #FBF5F1;
+  border-bottom: 0;
+  background: #FBF5F1;
+  height: 60px;
+  padding: 15px 10px;
+  
+}
+.description-box .description-head li {
+  flex: 1;
+  font-size: 16px;
+  line-height: 2;
+  font-weight: 400;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.description-box .description-head a {
+  text-decoration: none;
+  color: #212121;
+}
+.description-box .active a  {
+  background: #f46150!important;
+  border-radius: 5px;
+  font-weight: 400;
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 20px 40px;
+  color: #fff;
+}
+.course-tab {
+  padding-top: 30px;
+}
+.course-tab h3 {
+  text-transform: capitalize;
+  font-weight: 400;
+  margin: 0;
+  color: #212121;
+  word-wrap: break-word;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 32px;
+  margin-bottom: 0.25rem !important;
+}
+
+.course-tab p {
+  margin: 0;
+  color: #666464;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+.course-tab h5 {
+  margin-top: 1.5rem !important;
+  font-weight: 400;
+  margin: 0;
+  color: #212121;
+  word-wrap: break-word;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 32px;
+}
+.course-tab .learn  {
+  padding-left: 23px;
+  color: #666464;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+.course-tab ol {
+  padding-left: 23px;
+  color: #666464;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+.course-sidebar {
+  width: auto;
+  max-width: 100%;
+  margin-top: -770px;
+  position: relative;
+  top: 0 !important;
+}
+.sidebar-top {
+  box-shadow: 0 15px 20px 0 rgb(0 0 0 / 5%);
+  padding: 20px;
+  background: #fff;
+}
+.sidebar-stuff {
+  margin-bottom: 35px;
+}
+.sidebar-img {
+  margin: -20px -20px 30px;
+}
+.sidebar-img img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+.sidebar-price {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.sidebar-price .origin-price {
+  color: #666;
+  font-size: 18px;
+  text-decoration: line-through;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+}
+.sidebar-price .current-price {
+  color: #212121;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 600;
+}
+
+.text-center .btn-primary {
+  background-color: #f46150;
+  color: #fff;
+  text-align: center;
+  line-height: 2;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+}
+.featured-review h4 {
+  margin-top: 0;
+  margin-bottom: 6px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 36px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.sidebar-stars {
+  padding-bottom: 12px;
+  color: #f46150;
+  font-size: 16px;
+}
+.sidebar-stars .fa-quote-left {
+  font-size: 65px;
+  line-height: 79px;
+  font-weight: 600;
+  opacity: 0.1;
+  color: #CCC;
+  float: right;
+  margin-top: -30px;
+}
+.review-content {
+  color: #666464;
+  font-weight: 400;
+  line-height: 2;
+  font-style: italic;
+  font-size: 16px;
+}

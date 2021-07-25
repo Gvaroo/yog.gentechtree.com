@@ -153,6 +153,9 @@ main .classes-article .carousel-image-3 .classes-image img:nth-child(2) {
 }
 
 @media screen and (max-width:991px) {
+  body main .course-description .container {
+    max-width: 1060px!important;
+  }
   .container {
     max-width: 720px!important;
   }
@@ -353,6 +356,7 @@ main .studio-benifits {
   main .classes-article {
     height: 450px!important;
   }
+
  
 }
 @media screen and (max-width:1038px) {
@@ -463,6 +467,17 @@ main   .clients-reviews .info {
   main .cosmetics .cosmetics-box {
     text-align: center;
   }
+  main .description-box .description-head {
+    display: grid!important;
+    height: auto;
+    text-align: center;
+  }
+  main .description-box .description-head li {
+    margin-top: 1rem;
+  }
+  main .course-sidebar {
+    margin-top: 0px;
+  }
 }
 @media screen and (max-width:717px) {
   .latest-project .table-ul li {
@@ -510,6 +525,23 @@ main   .clients-reviews .info {
   }
  main  .studio-services .counter {
     padding: 25px 25px 25px 25px;
+  }
+}
+@media screen and (max-width:627px) {
+  main .course-meta {
+    width: 100%!important;
+    display: grid!important;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  main .course-meta-secondary {
+    display: grid!important;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    width: 100%!important;
+  }
+  .course-meta .review-text {
+    text-align: left;
   }
 }
 @media screen and (max-width:608px) {
@@ -596,7 +628,7 @@ main   .clients-reviews .info {
       margin-top: 0%!important;
     }
     .yoga-card .card .card-img img {
-      width: 435px!important;
+      width: 100%!important;
     }
     .main-article {
       height: 700px!important;
