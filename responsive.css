@@ -478,6 +478,27 @@ main   .clients-reviews .info {
   main .course-sidebar {
     margin-top: 0px;
   }
+  .courses .course-search {
+    width: 100%;
+  }
+  .course-lists .courses-meta {
+    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    grid-gap: 15px;
+  }
+  .course-lists .course-item .course-img {
+    width: 100%;
+    margin-top: 2rem;
+  }
+  .course-lists .course-item {
+    flex-direction: column!important;
+    width: 100%;
+  }
+.courses .course-lists .course-content {
+    align-self:unset!important;
+    width: 100%!important;
+    padding-top: 20px!important;
+  }
 }
 @media screen and (max-width:717px) {
   .latest-project .table-ul li {
