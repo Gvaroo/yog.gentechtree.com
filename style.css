@@ -2372,12 +2372,12 @@ main .studio-main {
 .courses {
   margin-top: 100px;
 }
-.course-title {
+.course-titlee {
   float: left;
   padding: 0;
   margin-bottom: 5rem!important;
 }
-.courses .course-title h1 {
+.courses .course-titlee h1 {
   font-size: 40px;
   font-weight: 400;
   margin: 0;
