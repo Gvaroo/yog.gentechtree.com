@@ -348,6 +348,21 @@ main .studio-benifits {
 .studio-services .services-text {
   margin-top: 1rem;
 }
+.hidden-1 {
+  display: none!important;
+}
+main .projects-detail .col-md-12 {
+  text-align: left!important;
+}
+main .projects-detail .container {
+  max-width: 1060px!important;
+}
+.projects-detail .portfolio-header h5 {
+  margin-top: 1rem;
+}
+.projects-detail .details-icons {
+  width: auto;
+}
 @media screen and (min-width:992px) and (max-width:1126px) {
   .main-article, .classes-article .images img:nth-child(2) {
     margin: 0!important;

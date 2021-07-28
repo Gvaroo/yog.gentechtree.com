@@ -2653,3 +2653,221 @@ main .studio-main {
     color: black;
    
   }
+/* //////////////////////////////////////////// */
+
+
+
+  /* PORTFOLIO-SINGLE PAGE */
+  .projects-detail {
+    margin-top: 128px;
+  }
+  .projects-detail .details-image img {
+    height: auto;
+    max-width: 100%;
+  }
+  .portfolio-box {
+    padding: 0px 15px 0px 15px;
+    width: 100%;
+
+  }
+  .portfolio-box .portfolio-header h5 {
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+   }
+   .portfolio-header p {
+    margin-bottom: 30px;
+    margin-top: 0;
+    font-size: 16;
+    color: #666464;
+    font-family: 'Open Sans', sans-serif;
+   }
+   .details-info ul {
+    margin: 0;
+    padding: 0;
+    }
+    .details-info ul li {
+      list-style: none;
+      width: 100%;
+      display: inline-block;
+      margin: 0 0 15px;
+      padding: 0 0 10px;
+      border-bottom: 1px solid #fbf5f1;
+ }
+ .details-info ul li h5 {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  font-family: 'Josefin Sans', sans-serif;
+ }
+ .details-info ul li span {
+   float: right;
+   color: #f46150;
+   font-family: 'Josefin Sans', sans-serif;
+ }
+ .details-icons {
+  word-spacing: 10px;
+  width: 100%;
+  margin-left: 18px;
+ }
+.details-icons .details-item {
+  display: inline-block;
+  word-break: break-word;
+   }
+   .details-icons a {
+    background-color:#212121;
+    padding: 1em;
+    border-radius: 5px;
+    font-size:20px;
+    line-height: 25px;
+    width: 54px;
+    height: 54px;
+    display: grid;
+    grid-template-columns: repeat(0, auto);
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
+    text-decoration: none;
+  cursor: pointer;
+   }
+   .details-icons a:hover {
+     background-color: #f46150;
+   }
+   .details-icons a i {
+    color: #fff;
+   }
+   .detail-summary {
+     margin-top: 3rem;
+   }
+   .detail-summary h2 {
+    font-family: "Josefin Sans", Sans-serif;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    font-size: 36px;
+}
+.detail-summary p {
+  color: #666464;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  
+}
+.details-list .row {
+  align-items: end!important;
+}
+.details-list ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  margin-top: 1rem;
+}
+.details-list ul li {
+  padding-bottom: 5px;
+  font-family: "Open Sans", Sans-serif;
+  font-weight: 400;
+}
+.details-list ul li i {
+  font-size: 16px;
+  color: #f46150;
+}
+.details-list ul li span {
+  color: #666464;
+  padding-left: 5px;
+}
+.details-list .lists-text {
+  margin-top: 2rem;
+}
+
+.details-list .lists-text p {
+  font-size: 16px;
+  color: #666464;
+  font-family: "Open Sans", Sans-serif;
+}
+.details-list .lists-image img {
+  height: auto;
+  max-width: 100%;
+ }
+ .details-gallery {
+  margin-top: 2rem;
+ }
+ .details-gallery img {
+  height: auto;
+  max-width: 100%;
+ }
+ .details-challenge {
+  margin-top: 2rem;
+ }
+ .details-challenge h2 {
+  font-family: "Josefin Sans", Sans-serif;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  font-size: 36px;
+ }
+ .details-challenge p {
+   color: #666464;
+   font-family: "Open Sans", Sans-serif;
+   font-size: 16px;
+ }
+ .projects-background {
+  background-image: url('https://gentechtree.com/wp-themes/yog/wp-content/uploads/2021/04/cla-4.jpg');
+  background-attachment: fixed;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.4;
+  transition: background 0.3s;
+  height: 100%;
+  width: 100%;
+  padding-top: 150px;
+  padding: 220px 0px 220px 0px;
+  cursor: pointer;
+ }
+.works-box {
+  margin-bottom: 3rem;
+}
+ .works-block {
+   text-align: center;
+
+ }
+ .works-box .works-img {
+  overflow: hidden;
+ }
+
+ .works-box .works-img img {
+   width: 100%;
+   height: auto;
+   margin-left: 30px;
+   transform: scale(1.1);
+   transition: 0.5s ease-in-out;
+   cursor: pointer;
+ }
+
+ .works-block:hover .works-img img {
+   margin-left: 0;
+    filter: brightness(40%);
+   }
+ .works-info {
+  padding: 15px 0 0;
+ }
+ .works-info span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #f46150;
+ }
+ .works-info h5 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0;
+ }
+ .works-info h5 a {
+   text-decoration: none;
+   color: #212121;
+ }
