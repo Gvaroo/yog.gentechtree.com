@@ -363,6 +363,12 @@ main .projects-detail .container {
 .projects-detail .details-icons {
   width: auto;
 }
+main .single-blog .container {
+  max-width: 1060px!important;
+}
+.single-blog .comment-name, .comment-email, .comment-url {
+  width: 100%!important;
+}
 @media screen and (min-width:992px) and (max-width:1126px) {
   .main-article, .classes-article .images img:nth-child(2) {
     margin: 0!important;
