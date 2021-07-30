@@ -93,9 +93,7 @@ width: 322px!important;
     width: 450px!important;
     height: 440px!important;
   }
-  .info-container {
-    margin-top: 30%;
-  }
+
   .about-info {
     margin-top: -35px;
   }
@@ -242,9 +240,7 @@ main .classes-article .carousel-image-3 .classes-image img:nth-child(2) {
     height: auto!important;
     width: 100!important;
   }
-  .info-container {
-    margin-top: 3%!important;
-  }
+ 
   .about-info {
     margin-top: 2px!important;
   }
@@ -285,7 +281,7 @@ main .classes-article .carousel-image-3 .classes-image img:nth-child(2) {
     display: none;
   }
   .reviews {
-    height: 1000px!important;
+    height: 1100px!important;
   }
   .about-uss .info-containers {
     margin-top: 120px!important;
@@ -368,6 +364,12 @@ main .single-blog .container {
 }
 .single-blog .comment-name, .comment-email, .comment-url {
   width: 100%!important;
+}
+.single-blog .blog-right-side {
+  margin-top: 2rem;
+}
+.single-blog .col-md-12 {
+  text-align: left;
 }
 @media screen and (min-width:992px) and (max-width:1126px) {
   .main-article, .classes-article .images img:nth-child(2) {
@@ -606,7 +608,11 @@ main   .clients-reviews .info {
   main .about-class {
         margin-top: 0px!important;
   }
-  
+  @media screen and (max-width:589px) {
+    .table-ul ul a {
+      font-size: 12px!important;
+    }
+  }
   }
   @media screen and (max-width:575px) {
     main .types-yoga {
@@ -712,6 +718,11 @@ main   .clients-reviews .info {
       font-size: 15px;
     }
   }
+  @media screen and (max-width:478px) {
+    .table-ul ul a {
+      font-size: 8px!important;
+    }
+  }
   @media screen and (max-width:455px) {
     main .studio-main .article-info h1 {
       max-width: 40%!important;
@@ -781,7 +792,7 @@ main   .clients-reviews .info {
 }
 @media screen and (max-width:376px) {
   main .benifits {
-    height: 2510px!important;
+    height: 2600px!important;
   }
   .latest-project .table-ul ul li a {
     font-size: 14px;
